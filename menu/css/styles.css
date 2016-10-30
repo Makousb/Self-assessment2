@@ -58,29 +58,26 @@ html, body{
   font-size: 35px;
 }
 .subsect1{
-  height: 30%;
-  background-color: orange;
+  height: 31%;
+  background-color: #F15A29;
 }
-#breakfast{
- position: relative;
- left: 275px;
-}
+
 #food{
   position: relative;
-  top: 100px;
+  top: 295px;
   left: 180px;
   float: left;
 }
 #foods{
   position: relative;
-  top: 295px;
+  top: 100px;
   right: 310px;
 }
-#lunch{
-  position: relative;
-  left: 270px;
+#sect1{
+  background-color: #E5E8E8;
+  width: 250px;
+  height: 110px;
 }
-#dinner{
-  position: relative;
-  left: 240px;
+.dinner{
+  float: right;
 }
