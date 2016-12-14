@@ -3,7 +3,7 @@
         <head>
           <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
           <link href="css/styles.css" rel="stylesheet" type="text/css">
-          <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bungee+Inline|Quintessential|Roboto" rel="stylesheet">
           <title>Kenza</title>
 
         </head>
@@ -16,18 +16,37 @@
           <div class="subsect1">
             <div id="sect0">
               <img class="dinner" src="assets/foodtop/dinner.jpg"></img>
+              <div id="myModal" class="modal">
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <img class="modal-content" id="sect0">
+                <div id="caption"></div>
+                <p>Dinner<p>
+              </div>
             </div>
             <div id="sect2">
               <img class="dinner" src="assets/foodtop/lunch.jpg"></img>
+              <div id="myModal" class="modal">
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <img class="modal-content" id="sect2">
+                <div id="caption"></div>
+              </div>
             </div>
             <div id="sect3">
-               <img src="assets/foodtop/breakfast.jpg"></img>
+              <img id src="assets/foodtop/breakfast.jpg"></img>
+               <div id="myModal" class="modal">
+                 <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                 <img class="modal-content" id="sect3">
+                 <div id="caption"></div>
+               </div>
             </div>
             <div id="sect1">
               <p id="happy">Happy Hour</p>
             </div>
             <p id="party">Party Time</p>
           </div>
+          <p id="breakfast">Breakfast</p>
+          <p id="lunch">Lunch</p>
+          <p id="dinner">Dinner</p>
 
           <div class="section2">
             <div id="serve">
@@ -43,7 +62,7 @@
                 suscipit lobortis nisl ut aliquip ex ea commodo consequat.Phasellus maximus vel nulla at porttitor.
                 Proin nibh leo, lobortis at tellus ac, auctor cursus elit.
             </div>
-            <a class="btn btn-primary btn-outline btn-lg">View Gallery -></a>
+            <a class="btn btn-warning btn-outline btn-lg">View Gallery -></a>
           </div>
           <div class="section3">
             <div id="bar">
@@ -51,7 +70,7 @@
                <img id="drink1" src="assets/drink1.jpg"></img>
             </div>
             <h1 id="head2"><b>Drinks</b></h1>
-            <h2 id="head12">We also produce delicious drinks</h2>
+            <h2 id="head12"><b>We also produce delicious drinks</b></h2>
             <div id="column2" style="float:left; margin:0; width:25%;">
                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -59,12 +78,69 @@
                suscipit lobortis nisl ut aliquip ex ea commodo consequat.Phasellus maximus vel nulla at porttitor.
                Proin nibh leo, lobortis at tellus ac, auctor cursus elit.
            </div>
-          <button <a class="btn btn-warning btn-outline btn-lg">View Gallery -></a></button>
+          <div id="button2"> <a class="btn btn-warning btn-outline btn-lg">View Gallery -></a></div>
           </div>
-          <div class="section4"></div>
-          <div class="section5"></div>
-          <div class="section6"></div>
-          <div class="section7"></div>
+          <div class="section4">
+            <img id="foodback" src="assets/backgrounds/foodsBg.jpg"></img>
+            <div id="customer">
+            <div id="foodie">
+                <ul id="slide" class="nav nav-tabs">
+                   <li id="fastfood" role="presentation" class="active"><a href="#">Fast Food</a></li>
+                   <li id="fastfood" role="presentation"><a href="#">Drinks</a></li>
+                   <li id="fastfood" role="presentation"><a href="#">Chicken</a></li>
+                   <li id="fastfood" role="presentation"><a href="#">Rice</a></li>
+               </ul>
+                <img id="chick" src="assets/fastfood/chickenPizza.jpg"></img>
+                <img id="buns" src="assets/fastfood/burger.jpg"></img>
+                <img id="chickbuns" src="assets/fastfood/chickenBurger.jpg"></img>
+
+             </div>
+             <p id="pizza">Chicken Pizza</p>
+             <p id="beef">Beef Burger</p>
+             <p id="chicken">Chicken Burger</p>
+             <div id="glyphicon glyphicon-chevron-right"></div>
+
+            </div>
+
+          </div>
+          <div class="section5">
+            <div id="fooders">
+              <div id="custo">
+
+                <img id="girl" src="assets/customers/p1.png"></img>
+                <img id="boy1" src="assets/customers/p2.png"></img>
+                <img id="boy2" src="assets/customers/p3.png"></img>
+                <h4 id="happy"><b>Our Happy Customers</b></h4>
+                <p id="customer-name">George Richard</p>
+                <p id="comment" >Great food! Menu is awesome, there food are not only great</br> but also in the right price. I'll highly recommend them :)</p>
+                <div class="vertical-line" style="height: 45px;" /></div>
+              </div>
+              <div id="food-menu">
+                <h4 id="about"><b>About Menu</b></h4>
+                <p id="menu-detail">We are menu a little team of 7 members.</br>
+                Lorem ipsum dolor sit amet, vix te viris ceteros</br>
+                Pri molli, at luptatum senserit suscipiantur ius.</br>
+                Id audiam offendit eum, te nibh utroque delicata</br>
+                mea, vix nullam recusabo ut. Eos nemore meliore</p>
+              </div>
+          </div>
+        </div>
+          <div class="section6">
+            <img id="subscribe" src="assets/backgrounds/subscribe.jpg"></img>
+            <p id="promotion">Get our daily food items delivered to your email</p>
+            <button class="button" style="vertical-align:middle"><span><p id="sub">Subscribe</p> </span></button>
+             <div id="tag">  <input type="text" placeholder="Your email" name="uname" required></div>
+          </div>
+          <div class="section7">
+             <img id="burger" src="assets/footerlogos/logo_white.png"></img>
+             <p id="menu">MENU</p>
+             <p id="direct">Thats What We Are</p>
+             <div id="social">
+                 <img id="facebook" src="assets/footerlogos/facebook.png"></img>
+                 <img id="twiiter" src="assets/footerlogos/twitter.png"></img>
+                 <img id="pinterest" src="assets/footerlogos/pinterest.png"></img>
+            </div>
+          </div>
 
 
           <script src="js/jquery-3.1.1.min.js"></script>
